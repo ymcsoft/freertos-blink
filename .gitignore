@@ -1,0 +1,4 @@
+.idea/
+cmake-build-debug/
+pico-sdk/
+RP2040/
