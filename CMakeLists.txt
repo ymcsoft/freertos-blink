@@ -1,10 +1,10 @@
 cmake_minimum_required(VERSION 3.13)
 set(PICO_BOARD pico_w)
 # Pull in SDK (must be before project)
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../pico-sdk/external/pico_sdk_import.cmake)
+include($ENV{PICO_SDK_PATH}/external/pico_sdk_import.cmake)
 
 # Pull in FreeRTOS
-include(${CMAKE_CURRENT_SOURCE_DIR}/../../freertos-pico/FreeRTOS-Kernel/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
+include($ENV{FREERTOS_KERNEL_PATH}/portable/ThirdParty/GCC/RP2040/FreeRTOS_Kernel_import.cmake)
 
 project(blink VERSION 0.1.0)
 
