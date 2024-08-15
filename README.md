@@ -11,6 +11,8 @@ Raspberry Pi Pico Test App with FreeRTOS capabilities
 
 ## How to Build
 
+* Follow the instruction in https://embeddedcomputing.com/technology/open-source/linux-freertos-related/using-freertos-with-the-raspberry-pi-pico to set up the environment.
+
 * Configure **PICO_SDK_PATH** environment variable to point to Pico SDK
 * Create a build directory 
 ```bash
